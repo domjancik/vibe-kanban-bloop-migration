@@ -98,12 +98,12 @@ need an Azurite/blob backend).
 
 The hardest part of the migration. Approach:
 
-1. Sign into vibekanban.com in a browser (or have the desktop app open with
-   `VK_SHARED_API_BASE=https://vibekanban.com`, which proxies the same auth
-   cookie path).
-2. Open DevTools → Console.
-3. Paste the contents of `dump-workspace-links.js` and hit Enter.
-4. The browser downloads `workspace-links.csv`.
+1. Launch the locally running Vibe Kanban desktop app against Bloop's hosted
+   service: `VK_SHARED_API_BASE=https://vibekanban.com npx vibe-kanban`.
+2. Sign into vibekanban.com through that local app.
+3. Open DevTools → Console in the app window.
+4. Paste the contents of `dump-workspace-links.js` and hit Enter.
+5. The app downloads `workspace-links.csv`.
 
 The snippet:
 
