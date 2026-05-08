@@ -98,8 +98,7 @@ need an Azurite/blob backend).
 
 The hardest part of the migration. Approach:
 
-1. Launch the locally running Vibe Kanban desktop app against Bloop's hosted
-   service: `VK_SHARED_API_BASE=https://vibekanban.com npx vibe-kanban`.
+1. Launch the locally running Vibe Kanban desktop app: `npx vibe-kanban`.
 2. Sign into vibekanban.com through that local app.
 3. Open DevTools → Console in the app window.
 4. Paste the contents of `dump-workspace-links.js` and hit Enter.
