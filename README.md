@@ -45,8 +45,8 @@ self-hosted remote-server ─┘                  http://localhost:3000
 
 You'll need this stack running before importing anything. The simplest path
 I've seen is the bootstrap repo at
-[`Chargeflow-engineering/cf-vibe-kanban-starter`](https://github.com/Chargeflow-engineering/cf-vibe-kanban-starter)
-(public-friendly fork welcome) — `make start` and you're done. Otherwise
+[`domjancik/vibe-kanban-starter`](https://github.com/domjancik/vibe-kanban-starter)
+— `make start` and you're done. Otherwise
 follow [Vibe Kanban's own self-hosting docs](https://github.com/BloopAI/vibe-kanban/tree/main/docs/self-hosting).
 
 The scripts here assume the self-hosted Postgres is reachable at
